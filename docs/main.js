@@ -14,7 +14,7 @@ try {
 function showTheme(theme) {
   root.dataset.theme = theme;
   themeButton.setAttribute("aria-label", "Switch to " + (theme === "dark" ? "light" : "dark") + " mode");
-  themeColour.content = theme === "dark" ? "#10191d" : "#f7f8f5";
+  themeColour.content = theme === "dark" ? "#17212c" : "#f6f8fa";
 }
 
 showTheme(root.dataset.theme || (systemTheme.matches ? "dark" : "light"));
