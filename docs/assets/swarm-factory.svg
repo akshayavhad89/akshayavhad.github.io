@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" fill="none">
+  <title>Swarm Production flexible factory illustration</title>
+  <desc>Mobile workstations and autonomous transport robots connected by flexible routes on an open factory floor. A conceptual illustration, not a depiction of a specific prototype.</desc>
+  <defs>
+    <pattern id="floor" width="64" height="64" patternUnits="userSpaceOnUse" patternTransform="matrix(.866 .5 -.866 .5 600 40)">
+      <path d="M64 0H0V64" stroke="#9db5c9" stroke-width="1"/>
+    </pattern>
+    <g id="station" stroke="#587d9e" stroke-width="2" stroke-linejoin="round">
+      <path d="m0 38 74-43 74 43-74 43Z" fill="#e1eaf2"/>
+      <path d="M0 38v22l74 43V81Z" fill="#c2d3e1"/>
+      <path d="m74 81 74-43v22l-74 43Z" fill="#d1dfeb"/>
+      <path d="M17 31v-62l44-25 65 37v62L82 68Z" fill="#dce7ef"/>
+      <path d="m17-31 65 37 44-25-65-37Z" fill="#f5f8fb"/>
+      <path d="M82 6v62m-51-91 38 22v36L31 13Z" fill="#aac3d7"/>
+      <path d="m94 14 19-11v22L94 36Z" fill="#88abc7"/>
+      <path d="m33 59 35 20m26-7 30-17" stroke="#7b9ab4"/>
+      <circle cx="21" cy="77" r="6" fill="#587d9e"/>
+      <circle cx="74" cy="107" r="6" fill="#587d9e"/>
+      <circle cx="130" cy="75" r="6" fill="#587d9e"/>
+      <path d="M55-48v-14" stroke="#ad625b" stroke-width="4"/>
+    </g>
+    <g id="robot" stroke="#587d9e" stroke-width="2" stroke-linejoin="round">
+      <path d="m0 0 35-20L70 0 35 20Z" fill="#f5f8fb"/>
+      <path d="M0 0v15l35 20V20Z" fill="#adc5d8"/>
+      <path d="m35 20 35-20v15L35 35Z" fill="#c6d8e6"/>
+      <path d="m18 0 17-10L52 0 35 10Z" fill="#7c9db8"/>
+      <path d="M10 21v5m48-6v5" stroke-width="5"/>
+      <path d="m27 23 15-8" stroke="#ad625b" stroke-width="3"/>
+    </g>
+    <g id="pallet" stroke="#7b9ab4" stroke-width="2" stroke-linejoin="round">
+      <path d="m0 0 45-26L90 0 45 26Z" fill="#e1eaf2"/>
+      <path d="M0 0v12l45 26V26Zm45 26L90 0v12L45 38Z" fill="#c6d8e6"/>
+      <path d="m15-9 45 26m-30-34 45 26"/>
+    </g>
+  </defs>
+  <path d="M90 365 600 70l510 295-510 295Z" fill="url(#floor)" stroke="#8faac0" stroke-width="2"/>
+  <path d="m90 365 510 295 510-295v14L600 674 90 379Z" fill="#d1dfeb"/>
+  <g stroke="#7093af" stroke-width="3" stroke-dasharray="8 10" stroke-linecap="round">
+    <path d="m280 380 170 98 345-199"/>
+    <path d="m425 250 170 98 170 98"/>
+    <path d="m405 560 370-214 150 87"/>
+    <path d="m245 456 350-202 170 98"/>
+  </g>
+  <g opacity=".7" stroke="#9db5c9" stroke-width="2">
+    <path d="M124 343V233m952 110V233M600 91V-19"/>
+    <path d="m124 233 476-275 476 275"/>
+  </g>
+  <use href="#station" x="465" y="210"/>
+  <use href="#station" x="665" y="270"/>
+  <use href="#station" x="860" y="370"/>
+  <use href="#station" x="270" y="330"/>
+  <use href="#station" x="470" y="455"/>
+  <use href="#station" x="665" y="545"/>
+  <use href="#robot" x="565" y="355"/>
+  <use href="#robot" x="755" y="405"/>
+  <use href="#robot" x="370" y="455"/>
+  <use href="#robot" x="565" y="580"/>
+  <use href="#pallet" x="155" y="405"/>
+  <use href="#pallet" x="950" y="335"/>
+  <g stroke="#ad625b" stroke-width="2" stroke-linecap="round">
+    <path d="m603 346 10-6-10-6m-197 116-10 6 10 6m373-64 10 6-10 6"/>
+  </g>
+</svg>

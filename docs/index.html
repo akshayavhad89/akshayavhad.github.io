@@ -32,6 +32,7 @@
     <symbol id="i-team" viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 4a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 4v3"/></symbol>
     <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6c-2.3-2.2-5.6-2.9-9-1.5v14c3.4-1.4 6.7-.7 9 1.5 2.3-2.2 5.6-2.9 9-1.5v-14c-3.4-1.4-6.7-.7-9 1.5Zm0 0v14"/></symbol>
     <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
   </svg>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="header">
@@ -75,17 +76,13 @@
             </div>
           </div>
 
-          <figure class="hero-figure">
-            <div class="hero-photo">
-              <img src="assets/workcell.webp" width="1536" height="1024" alt="Illustration of a graphite industrial robot arm in a precision manufacturing workcell" fetchpriority="high">
-              <span class="figure-label"><span class="figure-dot"></span> Illustrative workcell</span>
-              <span class="frame-mark frame-mark-top" aria-hidden="true"></span>
-              <span class="frame-mark frame-mark-bottom" aria-hidden="true"></span>
+          <figure class="hero-figure portrait-figure">
+            <div class="hero-photo portrait-photo">
+              <img src="assets/akshay-avhad-portrait.jpg" width="2841" height="3552" alt="Akshay Avhad wearing glasses, a white shirt and a dark blazer" fetchpriority="high">
             </div>
-            <figcaption class="figure-flow">
-              <span><svg class="icon " aria-hidden="true"><use href="#i-control"/></svg> Control</span><svg class="icon flow-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
-              <span><svg class="icon " aria-hidden="true"><use href="#i-data"/></svg> Data</span><svg class="icon flow-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
-              <span><svg class="icon " aria-hidden="true"><use href="#i-network"/></svg> Decisions</span>
+            <figcaption class="portrait-caption">
+              <strong>Akshay Avhad, PhD</strong>
+              <span>Industrial automation · Digitalisation · AI</span>
             </figcaption>
           </figure>
         </div>
@@ -196,6 +193,7 @@
               <p class="card-label">Applied research · Aalborg University</p>
               <h3>Swarm Production lifecycle</h3>
               <p>My co-authors and I integrated layout planning, scheduling and fleet control in a software-in-the-loop testbed, then evaluated scenarios with different product mixes.</p>
+              <a class="text-link" href="#swarm-demos">Explore the prototypes <svg class="icon" aria-hidden="true"><use href="#i-play"/></svg></a>
               <a class="text-link" href="https://doi.org/10.1016/j.jmsy.2025.01.020">View published study <svg class="icon " aria-hidden="true"><use href="#i-external"/></svg></a>
             </div>
           </article>
@@ -208,6 +206,52 @@
             <div><p class="card-label">Master’s project · Systec &amp; Services</p><h3>ERP–MES data exchange</h3><p>I built a multitenant SaaS prototype in Grails to explore secure data exchange between ERP and MES. Embedded Groovy scripts supported customer-specific extensions.</p></div>
           </article>
         </div>
+        <div class="work-subheading" id="swarm-demos">
+          <p class="eyebrow">Swarm Production demos</p>
+          <h3>From a flexible factory concept to working prototypes.</h3>
+          <p>Explore two demonstrations of my Swarm Production work.</p>
+        </div>
+        <div class="work-grid demo-grid">
+          <article class="work-card demo-card">
+            <a class="demo-visual" href="https://www.youtube.com/watch?v=dlZ54ziZW80&amp;t=353s" aria-label="Watch Swarm Production prototype 1 on YouTube, starting at 5 minutes 53 seconds">
+              <span class="demo-number" aria-hidden="true">01</span>
+              <span class="demo-play"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg></span>
+              <span class="demo-time">YouTube · Starts at 5:53</span>
+            </a>
+            <div class="work-copy">
+              <p class="card-label">Swarm Production · Demonstration</p>
+              <h3>Prototype 1</h3>
+              <p>A first look at the Swarm Production prototype and the flexible factory concept in practice.</p>
+              <a class="text-link" href="https://www.youtube.com/watch?v=dlZ54ziZW80&amp;t=353s">Watch prototype 1 <svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a>
+            </div>
+          </article>
+          <article class="work-card demo-card">
+            <a class="demo-visual demo-visual-second" href="https://www.youtube.com/watch?v=KvS2cMlGDEE&amp;t=305s" aria-label="Watch Swarm Production prototype 2 on YouTube, starting at 5 minutes 5 seconds">
+              <span class="demo-number" aria-hidden="true">02</span>
+              <span class="demo-play"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg></span>
+              <span class="demo-time">YouTube · Starts at 5:05</span>
+            </a>
+            <div class="work-copy">
+              <p class="card-label">Swarm Production · Demonstration</p>
+              <h3>Prototype 2</h3>
+              <p>A second demonstration from my Swarm Production work, exploring the concept through another prototype.</p>
+              <a class="text-link" href="https://www.youtube.com/watch?v=KvS2cMlGDEE&amp;t=305s">Watch prototype 2 <svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a>
+            </div>
+          </article>
+        </div>
+        <div class="work-subheading">
+          <p class="eyebrow">Industrial automation projects</p>
+          <h3>Controls, commissioning and manufacturing integration.</h3>
+          <p>Selected projects from my automation CV, spanning process plants, utilities and factory systems.</p>
+        </div>
+        <ul class="automation-projects" aria-label="Selected automation projects">
+          <li><p class="card-label">Food &amp; beverage · Jain Irrigation</p><h4>Fruit pulp &amp; onion processing</h4><p>Automation projects for a fruit pulp extraction plant and an onion dehydration plant.</p></li>
+          <li><p class="card-label">Power · Tata Power</p><h4>PLC–SCADA integration</h4><p>Integration of a PLC-5 control system with WinCC over Ethernet.</p></li>
+          <li><p class="card-label">Utilities · Offshore Infrastructure</p><h4>Water pumping station</h4><p>Industrial automation work for the Jaisalmer water pumping station.</p></li>
+          <li><p class="card-label">Power · Sterling Generators</p><h4>Generator &amp; utility controls</h4><p>Diesel generator control, changeover and utility automation.</p></li>
+          <li><p class="card-label">Energy · HPCL</p><h4>Energy management &amp; drives</h4><p>Energy management and TAS integration at MPSL, plus common drive panel and medium-voltage drive commissioning at Vashi.</p></li>
+          <li><p class="card-label">Manufacturing · MRF Tyres</p><h4>MES integration</h4><p>Manufacturing execution system integration for the Hyderabad tyre manufacturing site.</p></li>
+        </ul>
       </div>
     </section>
 
