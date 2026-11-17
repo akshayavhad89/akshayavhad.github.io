@@ -343,6 +343,15 @@ img { display: block; max-width: 100%; }
 .role-areas dt { font-size: .83rem; }
 .role-areas dd { margin-top: .3rem; color: var(--muted); font-size: .82rem; line-height: 1.5; }
 
+.testimonials-section { background: var(--muted-surface); border-block: 1px solid var(--line); }
+.testimonials-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.testimonial-card { display: flex; flex-direction: column; gap: 1.1rem; padding: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: .95rem; }
+.testimonial-card blockquote { flex: 1; margin: 0; font-size: .96rem; line-height: 1.7; }
+.testimonial-card figcaption { display: grid; gap: .25rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.testimonial-card figcaption strong { font-size: .94rem; }
+.testimonial-card figcaption span { color: var(--muted); font-size: .8rem; line-height: 1.5; }
+.testimonial-card time { color: var(--muted); font-size: .73rem; }
+
 .research-section { background: var(--surface); }
 .research-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; }
 .research-heading .button { flex-shrink: 0; }
@@ -394,6 +403,7 @@ img { display: block; max-width: 100%; }
   .timeline { --date-width: 10.7rem; }
   .role-areas { grid-template-columns: 1fr; }
   .featured-work { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .testimonials-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .education-credentials dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .contact-links { grid-template-columns: 1fr; }
 }
@@ -429,6 +439,7 @@ img { display: block; max-width: 100%; }
   .hero-actions .button { min-height: 2.75rem; padding-inline: .63rem; font-size: .82rem; }
   .hero-links { column-gap: .75rem; }
   .hero-pills, .work-grid, .contact-panel, .soft-skills-grid { grid-template-columns: 1fr; }
+  .testimonials-grid { grid-template-columns: 1fr; }
   .education-credentials dl { grid-template-columns: 1fr; gap: .4rem; }
   .details-content { padding: 1rem; }
   .hero-pills { margin-top: 1.2rem; gap: .43rem; }
